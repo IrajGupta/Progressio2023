@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Poppins&display=swap" rel="stylesheet">
+    <title>SAVE THE OCEANS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <h1 class="wor">Olympius</h1>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li class="home"><a href="index.html" class="active">Home</a></li>
+                    <li><a href="product.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+            </nav>
+        </div>
+       
+       <button type="submit" class="donate" onclick="openPopup()"id="donate">Donate</button>
+    </header>
+  <div class="popup">
+    <h2 style="font-family:'Poppins',sans-serif;font-size:30px;color: white;">Donate Here</h2>
+    <div>
+      <input type="number" name="number" class="number"placeholder="Enter Amount ($)" required>
+    </div><br>
+    <div>
+      <input type="text" name="message" class="message1" placeholder="Your Message" required>
+    </div>
+    <div>
+      <button type="button" id="popup" class="popup_button"name="submit" onclick="closePopup()"> Submit </button>
+    </div>
+  </div>
+    <section class="section1">
+        <div class="counter" id="counter">0</div>
+        <h1 id="trash-text">POUNDS OF TRASH CLEANED</h1>
+        <div>
+            <button class="learn"type="button"><a class="linker" href="product.html">LEARN MORE</a><span></span></button>
+        
+    </section>
+    <section class="section3">
+        <div>
+            <h1 class="aboutus">ABOUT US</h1>
+            <p class="aboutusp">Our initiative, Project Olympius, is a water-borne enterprise aiming to create a positive environmental impact, that is based on the UNSDG 14 - Life Below Water. Through the use of robotic, solar-powered boats, we aim to clear the accumulated plastic in the Great Garbage Patch, located in the Pacific Ocean. This plastic is roughly around 79,000 metric tons and makes up 99.9% of marine debris in this area, so to clean up these piles of plastic, we bring in our robot - Oceania - and aim to create a greener world.</p>
+        </div>
+              <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="tras.jpeg" class="pics" width="500" height="300" />
+        <img src="trash.jpeg" class="pics" width="500" height="300" />
+        <img src="trashy.webp" class="pics" width="500" height="300" />
+      </div>
+      <div class="buttonpic">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+</section>
+    </section>
+    <section class="section2">
+      <div class="god">
+        <h1>OUR GODS OF THE SEAS</h1>
+      </div>
+        <div class="card">
+            <img class="ship" src="wepik-export-202309291127593JWz.jpeg" alt="Avatar" style="width:100%; height:300px;">
+            <div class="container">
+                <h4><b>THE NEPTUNE</b></h4>
+                <p>It is a massive boat that contains nets to collect plastics from the depth of the ocean. Since it is large, it has a large storage capacity for collecting plastic which reduces the needfor it to often go back and from the dock.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="ship" src="wepik-export-20230929103623NHdv.jpeg" alt="Avatar" style="width:100%; height:300px;">
+            <div class="container">
+                <h4><b>THE POSEIDON</b></h4>
+                <p>Since plastic travels along with the water currents, our robot travels across the water current; causing the plastic debris to move in a vortex allowing all the plastic to surround the boat which helps in an easier retrieval process. In order to do so, Poseidon is equipped with high-engine capacity.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img class="ship" src="wepik-export-202309291129393ncs.jpeg" alt="Avatar" style="width:100%; height:300px;">
+            <div class="container">
+                <h4><b>THE ACHILLES</b></h4>
+                <p>It stays at the main sources of plastic pollution (beaches, lakes, etc), which helps prevent the initial stages of pollution and ensures no more plastic gets collected into the Garbage Patch.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section4">
+      <h1 style="text-align:center;color:rgb(4, 48, 87);">Our Current Partnerships</h1>
+      <div class="logos">
+        <img src="hm.png">
+        <img src="4ocean.png">
+        <img src="bureo.avif">
+      </div>
+    </section>
+    <footer>
+      <div class="footcol">
+        <img src="logo.png" alt="Logo">
+        <h2>Join Us. Save the Ocean.</h2>
+        <p>Copyright © 2023 Olympius All rights reserved.</p>
+      </div>
+      <div class="footcol1">
+        <h2>Check Out</h2>
+        <a class="linker" href="product.html">More About Us</a><br>
+        <a class="linker" href="contact.html">Contact Us</a>
+        </div>
+      <div class="footcol2">
+        <h2>Stay Connected</h2>
+        <p>Email: olympius.admin@gmail.com</p>
+        <p>Phone Number:<br> +65 8742 9124</p>
+      </div>
+  </footer>
+</body>
+</html>
